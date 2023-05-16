@@ -1,0 +1,160 @@
+
+/* Header */
+.header {
+  padding: 5px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header__decor {
+  position: relative;
+  padding-left: 10px;
+}
+
+.header__decor::before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 0px;
+  background-color: black;
+}
+
+.header__title {
+  margin-bottom: 5px;
+}
+
+.header__description {
+  margin-top: 0;
+}
+
+/* Navigation */
+.navigation {
+  position: relative;
+}
+
+.navigation__list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #e6e0e0ad;
+  padding: 20px;
+}
+
+.navigation__list button {
+  border: 1px solid transparent;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+}
+
+main {
+  padding: 10px 10px 10px 160px;
+}
+
+/* Smiles */
+.smiles {
+  margin-left: 20px;
+}
+
+.smiles__list {
+  list-style: none;
+  padding: 0;
+}
+
+.smiles__item {
+  font-size: 35px;
+}
+
+.smiles__result {
+  font-size: 30px;
+}
+
+
+/* Todo */
+.todo__item {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.todo__button {
+  margin-left: 15px;
+}
+
+/* Form */
+.form {
+  width: fit-content;
+  margin: 30px auto 0 30px;
+}
+
+.form label {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form div {
+  margin-bottom: 30px;
+}
+
+.form button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Table */
+.user__container {
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.user__container button {
+  margin: 20px 0 0 0;
+}
+
+.user__albums {
+  margin-top: 20px;
+}
+
+.user__album {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding: 0 20px 20px;
+  background-color: #e7e1e18f;
+}
+
+.user__album button {
+  margin: 0;
+  background-color: white;
+}
+
+.user__photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.user__photos img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+th {
+  text-align: start;
+}
+
+td {
+  padding: 5px;
+}
